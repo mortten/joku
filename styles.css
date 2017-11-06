@@ -6,4 +6,30 @@ h1{
 p{
 	color:green;
 	text-decoration:orange;
+	font-size: 2vw;
+}
+
+img{
+	max-width: 100%;
+}
+
+.sisalto{
+	overflow: auto;
+}
+
+.vasen{
+	float: left;
+	width: 50%;
+}
+	
+
+.oikea{
+	float: left;
+	width:50%;
+}
+
+@media only screen and (max-width: 1080pxpx){
+.vasen, .oikea {
+	width: 100%;
+}
 }
