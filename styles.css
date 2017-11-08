@@ -11,25 +11,29 @@ p{
 
 img{
 	max-width: 100%;
+	height:30vw;
 }
 
 .sisalto{
 	overflow: auto;
+	margin: lem;
 }
 
 .vasen{
 	float: left;
-	width: 50%;
+	width: 46%;
+	background: gray;
 }
 	
 
 .oikea{
 	float: left;
-	width:50%;
+	width:46%;
+	background:gray;
 }
 
-@media only screen and (max-width: 1080pxpx){
-.vasen, .oikea {
-	width: 100%;
-}
+@media only screen and (max-width: 1080px){
+	.vasen, .oikea{
+			width:100%;
+	}
 }
